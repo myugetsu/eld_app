@@ -1,0 +1,77 @@
+# General
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+.env
+.env.local
+.vscode/
+.idea/
+*.log
+*.bak
+*.swp
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.coverage
+.coverage.*
+.cache/
+*.pytest_cache/
+.tox/
+.mypy_cache/
+.pytest_cache/
+celerybeat-schedule
+*.pyc
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Frontend (Vite/React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.cache/
+frontend/.turbo/
+frontend/yarn.lock
+frontend/package-lock.json
+
+# Backend (Django)
+backend/__pycache__/
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+backend/.env
+backend/.coverage
+backend/*.log
+
+# Docker
+*.env
+*.env.*
+docker-compose.override.yml
+*.pid
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Build artifacts
+build/
+dist/
